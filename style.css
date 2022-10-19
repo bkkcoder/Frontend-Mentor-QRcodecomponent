@@ -1,0 +1,46 @@
+* { 
+    box-sizing: border-box;
+}
+
+/*  */
+
+body {
+    background:  hsl(212, 45%, 89%);
+    height: 100vh; 
+    display: flex; 
+    justify-content: center;
+    text-align: center; 
+    font-family: "Outfit"; 
+    font-weight: 700; 
+    /* border: 2px solid purple;  */
+}
+
+.card {
+    background: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    width: 60%; 
+    /* border: 2px solid red;  */
+    margin-top: 150px; 
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+/* display set to block as <img> is a inline element so we can center it using the margin trick */
+
+.image { 
+    display: block; 
+    width: 100%;
+    margin: 0 auto; 
+    border-radius: 20px; 
+    padding: 10px; 
+}
+
+.text {
+    font-size: 15px;  
+    padding-bottom: 15px; 
+    background: hsl(0, 0%, 100%);
+    border-radius: 20px; 
+    text-align: center; 
+    font-weight: 400; 
+    /* border: 1px solid green;  */
+}
