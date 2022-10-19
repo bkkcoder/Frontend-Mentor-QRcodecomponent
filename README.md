@@ -43,7 +43,7 @@ Continued Development
 
 ##  Useful resources 
 
-N/A
+None used
 
 ## Author
 
